@@ -1,0 +1,12 @@
+.places__website {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 767px) {
+    .places__website {
+        display: none; 
+    }
+}

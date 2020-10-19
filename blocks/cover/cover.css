@@ -1,0 +1,30 @@
+@import url('./__bg/cover__bg.css');
+@import url('./__subtitle/cover__subtitle.css');
+@import url('./__content/cover__content.css');
+@import url('./__title/cover__title.css');
+
+.cover {
+    font-family: 'Inter', Arial, sans-serif;
+    width: calc(100% + 100px * 2);
+    margin: 102px 0px 160px;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .cover {
+        width: calc(100% + 48px * 2);
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .cover {
+        width: calc(100% + 24px * 2);
+        margin-bottom: 102px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .cover {
+        width: calc(100% + 16px * 2);
+        margin-bottom: 64px;
+    }
+}

@@ -1,0 +1,26 @@
+.title_for_video {
+    width: 100%;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px auto;
+    white-space: pre-line;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    .title_for_video {
+        line-height: 65px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title_for_video {
+        line-height: 46px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title_for_video {
+        line-height: 35px;
+    }
+}

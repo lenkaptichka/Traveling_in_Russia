@@ -1,0 +1,11 @@
+@import url('./__title/intro__title.css');
+@import url('./__text-general-item/intro__text-general-item.css');
+@import url('./__text-general/intro__text-general.css');
+@import url('./__text/intro__text.css');
+@import url('./__text-general-item-special/intro__text-general-item-special.css');
+
+.intro {
+    font-family: 'Inter', Arial, sans-serif;
+    margin: 0px;
+    width: 100%;
+}

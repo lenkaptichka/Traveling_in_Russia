@@ -1,0 +1,23 @@
+@import url('./_for/title_for_additional.css');
+@import url('./_for/title_for_comments.css');
+@import url('./_for/title_for_places.css');
+@import url('./_for/title_for_video.css');
+
+.title {
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title {
+        font-size: 42px; 
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title {
+        font-size: 32px; 
+    }
+}

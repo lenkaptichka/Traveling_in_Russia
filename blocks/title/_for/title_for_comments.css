@@ -1,0 +1,22 @@
+.title_for_comments {
+    line-height: 65px;
+    text-align: center;
+    width: 100%;
+    color: #FFFFFF;
+    margin: 0px;
+    white-space: pre-line;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .title_for_comments {
+        line-height: 46px;
+        white-space: normal;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .title_for_comments {
+        line-height: 35px; 
+        white-space: normal;
+    }
+}
